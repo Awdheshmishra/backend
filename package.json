@@ -3,6 +3,7 @@
     "cat-me": "^1.0.3",
     "express": "^5.2.1",
     "figlet": "^1.11.0",
+    "mongoose": "^9.8.0",
     "one-liner-joke": "^1.2.2"
   }
 }
