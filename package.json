@@ -5,5 +5,25 @@
     "figlet": "^1.11.0",
     "mongoose": "^9.8.0",
     "one-liner-joke": "^1.2.2"
-  }
+  },
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Welcome to my **Backend Development Learning Repository**.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Awdheshmishra/backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Awdheshmishra/backend/issues"
+  },
+  "homepage": "https://github.com/Awdheshmishra/backend#readme"
 }
