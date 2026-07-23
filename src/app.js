@@ -54,17 +54,30 @@ app.post("/notes",async (req,res)=>{
 })
 
 app.get("/notes", async(req,res)=>{
-//    const notes =  await noteModel.find() 
+   const notes =  await noteModel.find()
    // find always return array ye array of object return krti hai
-   const notes = await noteModel.findOne({
-    title: "test_title" //it's find the one valuse by it's name  ye single object return karti hai
+//    const notes = await noteModel.findOne({
+//     title: "test_title" 
+    //it's find the one valuse by it's name  ye single object return karti hai
     //agar ham findone ko aise condition de de jo ki exist hi nhi kti to output me null aayega
-   })
+//    })
     res.status(200).json({
         message: "notes fetched successfully",
         notes: notes
     })
 })
+
+app.delete("/notes/:id", async (req,res) =>{
+    const id = req.params.id
+    await noteModel.findOneAndDelete({
+        _id: id
+    })
+    res.status(200).json({
+        message: "note deleted successfully"
+    })
+})
+
+
 //note me title aur description do chiz hote hain 
 
 
