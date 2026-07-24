@@ -3,3 +3,6 @@ node_modules/
 
 # sabhi CSV files ignore
 *.csv
+
+src/db/db.js
+

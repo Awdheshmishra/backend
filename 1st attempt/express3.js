@@ -13,7 +13,7 @@ app.get('/', function(req,res){
 })
 
 app.get('/profile/:username', function(req,res){
-    res.send(`hello from ${}`)
+    res.send(`hello from ${app}`)
 })
 
 
