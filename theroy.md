@@ -57,3 +57,7 @@ install ka matlab hota hai websites se files ko copy krna apne laptop ya compute
 CRUD
 
 opertion performs on database like CRUD  isliye noteModel ka  use krte hain agr nhi krenge to code bahut jyde likhna pdegaa
+
+
+-------------------------------------------------
+PHLE HAME BACKEND BANATE HAIN FIR FRONTEND YE SHI FLOW HOTA HAI 
