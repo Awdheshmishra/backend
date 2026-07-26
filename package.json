@@ -1,9 +1,12 @@
 {
   "dependencies": {
+    "@imagekit/nodejs": "^7.10.0",
     "cat-me": "^1.0.3",
+    "dotenv": "^17.4.2",
     "express": "^5.2.1",
     "figlet": "^1.11.0",
     "mongoose": "^9.8.0",
+    "multer": "^2.2.0",
     "one-liner-joke": "^1.2.2"
   },
   "name": "backend",

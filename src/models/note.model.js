@@ -1,4 +1,4 @@
-const mongoose = require("mongoose")
+/* const mongoose = require("mongoose")
 
 const noteSchema = new mongoose.Schema({
 
@@ -10,4 +10,4 @@ const noteSchema = new mongoose.Schema({
 
 const noteModel = mongoose.model("note", noteSchema)//opertion performs on database like CRUD  isliye noteModel ka  use krte hain agr nhi krenge to code bahut jyde likhna pdegaa
 
-module.exports = noteModel
+module.exports = noteModel */

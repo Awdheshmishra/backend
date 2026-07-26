@@ -1,6 +1,6 @@
 //server ko start krna
 
-const app = require("./src/app")
+/* const app = require("./src/app")
 const connectDB = require("./src/db/db")
 
 connectDB()
@@ -8,4 +8,16 @@ connectDB()
 
 app.listen(3000,()=>{
     console.log("server is running on port 3000")
-})
+}) */
+
+    /* ----------------------------------- */
+    require("dotenv").config()
+    const app = require("./src/app")
+
+    const connectDB = require('./src/db/db')
+
+    connectDB()//calling connect DB
+
+    app.listen(3000,()=>{
+        console.log("server is running on port 3000")
+    })

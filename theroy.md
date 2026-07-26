@@ -55,3 +55,5 @@ install ka matlab hota hai websites se files ko copy krna apne laptop ya compute
 // pcakage ->  bani banai chheze ya features or files of code
 
 CRUD
+
+opertion performs on database like CRUD  isliye noteModel ka  use krte hain agr nhi krenge to code bahut jyde likhna pdegaa
