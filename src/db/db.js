@@ -2,7 +2,7 @@
 
 //
 async function connectDB(){
-    await mongoose.connect("mongodb+srv://yt:s9KQNvlPwnlloSxy@backend.3zcpuiv.mongodb.net/?appName=backend/halley") //hally-- database ka naam 
+    await mongoose.connect("process.env.MONGO_URI/halley") //hally-- database ka naam 
 
 
     console.log("connected to DB")
