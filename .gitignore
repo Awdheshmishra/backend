@@ -1,0 +1,11 @@
+# node_modules folder ignore
+node_modules/
+
+# sabhi CSV files ignore
+*.csv
+
+# src/db/db.js
+# src/services/storage.service.js
+
+.env
+
