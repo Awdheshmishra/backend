@@ -61,3 +61,7 @@ opertion performs on database like CRUD  isliye noteModel ka  use krte hain agr 
 
 -------------------------------------------------
 PHLE HAME BACKEND BANATE HAIN FIR FRONTEND YE SHI FLOW HOTA HAI 
+
+
+
+ham api app.js me API create nhi krte balki src ke andr ek forldedr hota hai routes usme ek file hoti wha krte hain
