@@ -4,6 +4,8 @@ const jwt = require("jsonwebtoken")
 
 
 async function registerUser(req, res){
+
+    console.log(req.body)
     const { username, email, password} = req.body;
 
 
@@ -15,10 +17,11 @@ async function registerUser(req, res){
         id: user._id
     }, process.env.JWT_SECRET)//token creating
 
+    res.cookie("token", token)//browser cokkie
+
     res.status(201).json({
         message: "user registered successfully",
-        user,
-        token
+        user
     })
     
 }
