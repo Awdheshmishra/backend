@@ -65,3 +65,9 @@ PHLE HAME BACKEND BANATE HAIN FIR FRONTEND YE SHI FLOW HOTA HAI
 
 
 ham api app.js me API create nhi krte balki src ke andr ek forldedr hota hai routes usme ek file hoti wha krte hain
+
+
+package.json ke andar script wali line me dev add krke ham nodemon ko replace krte hain aur npm run dev se server chlne lgta 
+"scripts": 
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev":" nodemon server.js"
